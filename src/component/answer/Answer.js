@@ -14,7 +14,7 @@ function Answer() {
       .post("http://localhost:7000/answer/add", data)
       .then((response) => {
         setAnswerState(response.data);
-        set
+        set;
       });
   };
   const handlerInputChange = (e) => {
@@ -39,7 +39,7 @@ function Answer() {
           />
 
           <input
-            type="text"
+            type="radio"
             id="context"
             name="context"
             placeholder="enter context..."
