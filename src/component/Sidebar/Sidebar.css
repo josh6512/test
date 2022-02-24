@@ -1,0 +1,24 @@
+.sidebar-wrapper {
+  height: 100vh;
+  background-color: light-blue; 
+    min-width: 200px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sidebar-wrapper .header {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  font-family: cursive;
+}
+.sidebar-wrapper .links {
+  text-align: left;
+  padding-top: 50px;
+  font-family: cursive;
+}
+
+.sidebar-wrapper .link {
+  color: lightgray;
+  padding: 15px 25px;
+}
+

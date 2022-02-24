@@ -1,0 +1,98 @@
+.create-test-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.create-test-wrapper .main {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.create-test-wrapper .main .header {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.create-test-wrapper .form {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.create-test-wrapper .select {
+  margin-top: 20px;
+}
+.create-test-wrapper .checkbox {
+  margin-top: 70px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  width: 140px;
+  justify-content: space-between;
+}
+
+.create-test-wrapper .input {
+  width: 100px !important;
+  margin: 10px 0;
+}
+.create-test-wrapper .add-question,
+.add-answer {
+  box-shadow: 10px 10px 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+.create-quiz-wrapper .btn-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.create-quiz-wrapper .btn-wrapper .btn {
+  color: white;
+  border-radius: 10px !important;
+}
+.create-quiz-wrapper .btn-wrapper .btn:first-child {
+  background-color: red;
+    cursor: pointer;
+
+}
+.create-quiz-wrapper .question {
+  display: flex;
+  position: relative;
+  background-color: #eff0f1;
+  padding: 12px;
+  width: 90%;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  border-left: 5px solid #476b7a;
+    
+}
+
+.create-quiz-wrapper .question div {
+  margin-right: 40px;
+}
+.create-quiz-wrapper .question .delete {
+  position: absolute;
+  right: 20px;
+  background-color: red;
+  border-radius: 10px !important;
+  color: white;
+  padding: 8px;
+  top: 5px;
+    cursor: pointer;
+
+}
+
+.create-quiz-wrapper .save-quiz {
+  border-radius: 10px;
+  color: white;
+    cursor: pointer;
+
+}
